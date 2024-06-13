@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=“pt-br”>
+<head>
+  <meta charset=“utf-8”/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src='./js/scripts.js' defer></script>
+  
+  <title>Color Cycle App</title>
+</head>
+
+<body>
+	<main class="container">
+	  <h3>Insira a cor em hexadecimal:</h3>
+	  
+	  <section class="input-area">
+	    <div class="input-container">
+	      <label>R</label>
+	      <input type="text" class="input-color" id="input-r" maxlength="2">
+	    </div>
+	    <div class="input-container">
+	      <label>G</label>
+	      <input type="text" class="input-color" id="input-g" maxlength="2">
+	    </div>
+	    <div class="input-container">
+	      <label>B</label>
+	      <input type="text" class="input-color" id="input-b" maxlength="2">
+	    </div>
+	  </section>
+	  
+	  <p id="warning" class="hidden">Preencha os campos corretamente!</p>
+	  
+	  <p id="color-label">#00FF00</p>
+	  
+	  <section class="box-container">
+	    <div class="color-box">
+	      <p class="result"></p>
+	    </div>
+	  </section>
+	  
+	  <section class="controls">
+	    <button class="start-btn">Start</button>
+	    <button class="stop-btn">Stop</button>
+	  </section>
+	</main>
+</body>

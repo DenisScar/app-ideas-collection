@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang=“pt-br”>
+<head>
+  <meta charset=“utf-8”/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src='./js/scripts.js' defer></script>
+  <title>Border-Radius Previewer</title>
+</head>
+
+<body>
+	<header>
+		<h2>Border-Radius Previewer</h2>
+	</header>
+	<main>
+  	<div id="container-box">
+	  	<div class="row" id="row1">
+  			<input type="number" class="input-radius" id="input-top-left" value="0">
+	  		<input type="number" class="input-radius" id="input-top-right" value="0">
+	  	</div>
+	  	<div id="box"></div>
+	  	<div class="row" id="row2">
+	  		<input type="number" class="input-radius" id="input-bottom-left" value="0">
+	  		<input type="number" class="input-radius" id="input-bottom-right" value="0">
+	  	</div>
+  	</div>
+  	<div id="container-result-css">
+	  	<p>
+  			border-radius: <span id="top-left-value">0</span> <span id="top-right-value">0</span> <span id="bottom-right-value">0</span> <span id="bottom-left-value">0</span>;
+  		</p>
+  	</div>
+	  <button id="btn-copy-css">Copiar</button>
+	</main>
+</body>

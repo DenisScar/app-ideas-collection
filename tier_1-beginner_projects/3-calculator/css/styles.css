@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	font-size: 25px;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.container {
+	padding: 15px;
+	background-color: #ccc;
+	border-radius: 10px;
+}
+
+.display-container {
+	background-color: #aaa;
+	height: 60px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.display {
+	font-size: 40px;
+}
+
+.container .display-container {
+	font-size: 1.8rem;
+	width: 320px;
+	padding: 10px 10px;
+	margin-bottom: 15px;
+}
+
+.keys-list {
+	width: 320px;
+	height: 320px;
+	display: grid;
+	justify-items: center;
+	grid-template-areas: 
+	'ac sin div bac'
+	'sev eig nin mul'
+	'fou fiv six sub'
+	'one two thr sum'
+	'zer zer dot eql';
+	gap: 5px;
+}
+
+.key {
+	background-color: #bbb;
+	border: 1px solid #000;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	width: 75px;
+}
+
+#one {
+	grid-area: one;
+}
+
+#two {
+	grid-area: two;
+}
+
+#thr {
+	grid-area: thr;
+}
+
+#fou {
+	grid-area: fou;
+}
+
+#fiv {
+	grid-area: fiv;
+}
+
+#six {
+	grid-area: six;
+}
+
+#sev {
+	grid-area: sev;
+}
+
+#eig {
+	grid-area: eig;
+}
+
+#nin {
+	grid-area: nin;
+}
+
+#ac {
+	grid-area: ac;
+}
+
+#sum {
+	grid-area: sum;
+}
+
+#zer {
+	grid-area: zer;
+	width: 160px;
+}
+
+#sbt {
+	grid-area: sbt;
+}
+
+#div {
+	grid-area: div;
+}
+
+#mul {
+	grid-area: mul;
+}
+
+#eql {
+	grid-area: eql;
+}
+
+#dot {
+	grid-area: dot;
+}
+
+#bac {
+	grid-area: bac;
+}
+
+#sin {
+	grid-area: sin;
+}

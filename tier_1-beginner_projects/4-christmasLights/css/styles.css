@@ -1,0 +1,132 @@
+:root {
+  /*LEDs on*/
+  --red-on: #ff0000;
+  --green-on: #00ff00;
+  --blue-on: #0000ff;
+  --yellow-on: #ffff00;
+  --orange-on: #ff9900;
+  --purple-on: #800080;
+  --pink-on: #ff66b2;
+  
+  /*LEDs off*/
+  --red-off: #440000;
+  --green-off: #004400;
+  --blue-off: #000044;
+  --yellow-off: #444400;
+  --orange-off: #442200;
+  --purple-off: #220022;
+  --pink-off: #440033;
+  
+  /*Primary*/
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  
+  /*Neutrala*/
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+  --grey: hsl(0, 0%, 20%);
+  --light-grey: hsl(30, 18%, 87%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 90%;
+}
+
+.light-list {
+	padding: 1rem;
+	display: flex;
+	gap: 1rem;
+	border: 1px solid #000;
+	border-radius: 1rem;
+}
+
+.light {
+	width: 1.5rem;
+	height: 1.5rem;
+	list-style: none;
+	border-radius: 50%;
+}
+
+.red-off {
+	background-color: var(--red-off);
+}
+
+.blue-off {
+	background-color: var(--blue-off);
+}
+
+.yellow-off {
+	background-color: var(--yellow-off);
+}
+
+.green-off {
+	background-color: var(--green-off);
+}
+
+.purple-off {
+	background-color: var(--purple-off);
+}
+
+.pink-off {
+	background-color: var(--pink-off);
+}
+
+.orange-off {
+	background-color: var(--orange-off);
+}
+
+.red-on {
+	background-color: var(--red-on);
+}
+
+.blue-on {
+	background-color: var(--blue-on);
+}
+
+.yellow-on {
+	background-color: var(--yellow-on);
+}
+
+.green-on {
+	background-color: var(--green-on);
+}
+
+.purple-on {
+	background-color: var(--purple-on);
+}
+
+.pink-on {
+	background-color: var(--pink-on);
+}
+
+.orange-on {
+	background-color: var(--orange-on);
+}
+.onOffBtn {
+  margin-top: 1rem;
+  padding: 0.5rem;
+}

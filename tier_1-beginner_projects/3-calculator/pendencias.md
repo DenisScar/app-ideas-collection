@@ -1,0 +1,1 @@
+CORRIGIR: FUNÇÃO NÃO PODE USAR ARRAY - USAR ln()!!!!!
