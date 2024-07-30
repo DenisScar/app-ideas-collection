@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 70%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+  border-radius: 0.5rem;
+}
+
+.input {
+  width: 75%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+
+#control {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+#msg-info {
+  min-height: 1.25rem;
+  margin-top: 1rem;
+  color: red;
+  font-size: 0.8rem;
+}
+
+.emptyInputError {
+  background-color: #FFFFE0;
+}
+
+.wrongInputError {
+  background-color: #FFCCCB;
+}

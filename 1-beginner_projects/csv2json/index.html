@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang=“pt-br”>
+<head>
+  <meta charset=“utf-8”/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src='./js/scripts.js' defer></script>
+  
+  <title>Conversor de CSV para JSON</title>
+</head>
+
+<body>
+	<main id="converter">
+    <p class="warning hide" id="input-empty">Digite corretamente um texto com sintaxe CSV</p>
+	  <textarea class="field" id="input-field" placeholder="Digite ou cole o CSV..."></textarea>
+	  <button class="btn" id="converter-btn">Converter em JSON</button>
+	  <div class="field" id="output-field"></div>
+	  <div class="controls">
+	    <button class="btn" id="copy-btn">Copiar JSON</button>
+	    <button class="btn" id="clear-btn">Limpar</button>
+	  </div>
+	</main>
+</body>
