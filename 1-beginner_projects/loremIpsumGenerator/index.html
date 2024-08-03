@@ -6,13 +6,37 @@
     
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/lorem-ipsum@2.0.8/dist/index.min.js" defer></script>
     <script src='./js/script.js' defer></script>
-
+    
     <title>Lorem Ipsum Generator</title>
 </head>
 <body>
-    <h1>Lorem Ipsum Generator</h1>
-    <input type="text">
-    <div class="result"></div>
+  <h1>Lorem Ipsum Generator</h1>
+  
+  <p class="description">
+    O texto Lorem Ipsum é uma
+    ferramenta essencial para
+    designers e desenvolvedores,
+    proporcionando uma maneira
+    eficaz de visualizar e testar
+    layouts sem a necessidade do
+    conteúdo final.
+  </p>
+  
+  <div class="input-container">
+    <label for="input-qty-parag">Quantidade de parágrafos:</label>
+    <input name="input-qty-parag" class="input-qty-parag" type="number">
+  </div>
+  
+  <button class="gen-btn">Gerar</button>
+  
+  <p>Lorem Ipsum gerado:</p>
+  <div class="result-container"></div>
 </body>
 </html>
